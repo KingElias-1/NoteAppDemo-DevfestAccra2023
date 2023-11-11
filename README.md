@@ -41,7 +41,7 @@ The project follows the standard Android project structure:
 Contributions are welcome! If you have suggestions or find issues, please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 Special thanks to the organizers of GDG Accra for the opportunity to present this Demo at Devfest Accra 2023.
