@@ -21,7 +21,7 @@ Welcome to the Note App repository! This Android app is a simple note-taking app
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/note-app.git
+   git clone https://github.com/KingElias-1/NoteAppDemo-DevfestAccra2023.git
 
 2. Open the project in Android Studio.
 
