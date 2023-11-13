@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Fragment for editing or adding a new note -->
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.kingelias.noteapp.ui.EditFragment"
+        android:label="Note"
+        tools:layout="@layout/fragment_edit" >
+
+        <!-- Action to navigate from EditFragment to HomeFragment -->
+        <action
+            android:id="@+id/action_editFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- Fragment for displaying a list of notes -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kingelias.noteapp.ui.HomeFragment"
+        android:label="Note App"
+        tools:layout="@layout/fragment_home" >
+
+        <!-- Action to navigate from HomeFragment to EditFragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+</navigation>

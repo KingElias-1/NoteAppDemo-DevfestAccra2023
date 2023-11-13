@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "44782686688",
+    "firebase_url": "https://note-app-d0843-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "note-app-d0843",
+    "storage_bucket": "note-app-d0843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44782686688:android:7ebb4445f530c16536db85",
+        "android_client_info": {
+          "package_name": "com.kingelias.note"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0lHcsSwWepIG6yCMKnGbixKsWqZlIE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44782686688:android:34660b3a19d23a9336db85",
+        "android_client_info": {
+          "package_name": "com.kingelias.noteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0lHcsSwWepIG6yCMKnGbixKsWqZlIE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
