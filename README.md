@@ -1,4 +1,5 @@
 # Note App with Android x Firebase
+[Demo Video Here](https://drive.google.com/file/d/1TvndM6gblxrMc-eTu-pyfuwIT9JNc1sB/view?usp=sharing)
 
 Welcome to the Note App repository! This Android app is a simple note-taking application that demonstrates the integration of Android with Firebase for real-time data storage.
 
