@@ -9,6 +9,7 @@ Welcome to the Note App repository! This Android app is a simple note-taking app
 - **Firebase Integration:** Utilizes Firebase Realtime Database for real-time synchronization of notes across devices.
 - **Android Architecture Components:** Implements ViewModel, LiveData, and other Android Architecture Components for a robust and maintainable architecture.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -31,6 +32,7 @@ Welcome to the Note App repository! This Android app is a simple note-taking app
 - Place the google-services.json file in the app directory of the Android project (replace mine).
 - Build and run the app on an emulator or a physical device.
 
+
 ## Structure
 The project follows the standard Android project structure:
 
@@ -38,8 +40,10 @@ The project follows the standard Android project structure:
 - [app/src/main/res](.app/src/main/res): Contains resources such as layouts, drawables, and values.
 - [app/build.gradle](.app/build.gradle): Configures the dependencies and settings for the app module.
 
+
 ## Contributing
 Contributions are welcome! If you have suggestions or find issues, please open an issue or submit a pull request.
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
