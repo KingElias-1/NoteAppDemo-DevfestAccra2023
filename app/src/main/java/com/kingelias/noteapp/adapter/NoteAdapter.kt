@@ -26,11 +26,10 @@ class NoteAdapter(private val fragment: HomeFragment) : RecyclerView.Adapter<Not
 
         // Set title and preview text
         holder.title.text = noteItem.title
-        if (noteItem.content!!.lastIndex < 47) {
-            holder.preview.text = noteItem.content?.substring(0, noteItem.content!!.lastIndex + 1)
-                ?: "No preview available"
+        if (noteItem.content!!.lastIndex < 45) {
+            holder.preview.text = noteItem.content?.substring(0, noteItem.content!!.lastIndex + 1) ?: "No preview available"
         } else {
-            holder.preview.text = noteItem.content?.substring(0, 47) ?: "No preview available"
+            holder.preview.text = noteItem.content?.substring(0, 45) ?: "No preview available"
         }
 
         // Set click listeners for delete and item click
